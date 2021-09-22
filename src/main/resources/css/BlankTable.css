@@ -1,0 +1,51 @@
+.root {
+    /*-fx-background-image: url('/../../../../cards/PNG/blankTable.png'); Fikk ikke dette til å funke*/
+    -fx-background-image: url("/png/blankbord1200.png");
+    -fx-background-size: stretch;
+}
+
+.anchorPane {
+    -fx-background-image: url("/../../../../cards/PNG/bord.jpg");
+}
+
+
+.button {
+    -fx-background-color: #FBC02D; /* gul-oransje */
+    /*-fx-border: 0;*/
+    -fx-padding: 12px 15px;
+    -fx-text-alignment: center;
+    -fx-font-size: 25px;
+    -fx-background-radius: 4;
+    transition-duration: 0.4s;
+    -fx-font-family: "Rockwell";
+}
+
+.button:hover {
+    -fx-background-color: #F9A825; /* Litt mørkere guloransje*/
+}
+
+.button:pressed {
+    -fx-background-color: #F57F17; /* Enda mørkere guloransje*/
+}
+
+.label {
+    -fx-text-fill: #FFFFFF; /* hvit */
+    -fx-text-overrun: clip;
+    -fx-font-family: "Copperplate Gothic Light";
+}
+.label-Red {
+    -fx-prompt-text-fill: #FF5252; /* rød */
+}
+
+.text-field {
+    -fx-min-width: 400;
+    -fx-font-family: "Rockwell";
+    -fx-font-size: 35;
+    -fx-background-color: rgba(66, 66, 66, 0.5);
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 4;
+
+}
+
+
+

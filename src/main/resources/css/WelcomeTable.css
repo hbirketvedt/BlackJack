@@ -1,0 +1,23 @@
+.root {
+    -fx-background-image: url("/png/bord1200.png");
+    -fx-background-size: stretch;
+}
+
+.button {
+    -fx-background-color: #FBC02D; /* Green */
+    /*-fx-border: 0;*/
+    -fx-padding: 20px 30px;
+    -fx-text-alignment: center;
+    -fx-font-size: 25px;
+    -fx-background-radius: 4;
+    transition-duration: 0.4s;
+    -fx-font-family: "Rockwell";
+}
+
+.button:hover {
+    -fx-background-color: #F9A825;
+}
+
+.button:pressed {
+    -fx-background-color: #F57F17;
+}
