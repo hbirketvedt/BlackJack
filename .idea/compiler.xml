@@ -6,19 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="project (1)" />
-      </profile>
-      <profile name="Annotation profile for TDT4100-Project" enabled="true">
-        <sourceOutputDir name="project/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="project/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="project (2)" />
+        <module name="BlackJack" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BlackJack" target="15" />
       <module name="project" target="15" />
-      <module name="project (1)" target="15" />
-      <module name="project (2)" target="15" />
+      <module name="project (1)" target="1.5" />
+      <module name="project (1) (BlackJack2)" target="1.5" />
+      <module name="project (2)" target="1.5" />
+      <module name="project (2) (tdt4100-v2021)" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
