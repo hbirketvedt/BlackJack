@@ -9,3 +9,4 @@ public class GUIStarter {   // Brukes kun til å starte appen fra Intellij, ett 
     }
 
 }
+
